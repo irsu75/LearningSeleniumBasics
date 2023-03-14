@@ -1,0 +1,13 @@
+Xpath:
+
+    1. Absolute Xpath [/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input]
+    2. Relative XPath  [custom XPath
+1) //tagName[@attributeName='value']
+    //input[@id='userId' and @title='Email' ]
+    //input[@id='userId' and @title='Email' ]
+2) //tagName[text()='InnerText']
+3) //tagName[contains(@attribute,'value')]
+   //input[contains(@id,'userid')]
+4) //tagName[contains(text(), 'innerText')]
+
+   //input[@*='userId']

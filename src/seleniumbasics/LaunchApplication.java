@@ -10,5 +10,6 @@ public class LaunchApplication {
 
         System.setProperty("webdriver.chrome.driver","C:\\Users\\vladb\\IdeaProjects\\LearningSeleniumBasics\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        driver.get("https://www.google.com/");
     }
 }
